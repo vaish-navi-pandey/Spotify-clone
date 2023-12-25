@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Pacifico&display=swap');
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/vibrant-pink-watercolor-painting-background_53876-58931.jpg");
+    height: 100%;
+    background-position: center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Roboto Slab', serif; ;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none ;
+    height: 65px;
+    background-color:   rgba(25, 12, 16, 0.162);
+    color: black;
+    
+
+}
+nav ul li{
+    padding: 0 16px ; 
+
+}
+.brand img{
+    height: 50px; 
+    width: 50px;
+    padding: 10px;
+    
+}
+.brand{
+    display: flex;
+    align-items: center ;
+    font-weight: 900;
+    font-family: 'Courgette', cursive;
+}
+
+.bottom{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    background-color: rgba(25, 12, 16, 0.162);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+div input{
+    width: 90%;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    color: antiquewhite;
+    padding: 10px 5px;
+    size: 70px;
+}
+.icons back{
+    
+}
+.container{
+    background-color: rgba(6, 0, 2, 0.482);
+    margin:5px;
+    height: 75vh;
+    width:70%;
+    display: flex;
+    margin:25px auto;
+    border-radius: 10px;
+   
+}
+
+.songlist h1{
+    margin: 10px;
+    color: rgb(255, 254, 254);
+    size: 50px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+.songlist h1 span{
+     color:rgb(253, 177, 190)
+}
+
+.songnames{
+    height:35px;
+    background-color:rgba(6, 0, 2, 0.585) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    margin:10px;
+    border-radius: 25px; 
+    color: white;  
+     
+}
+.poster{
+    align-self: center;
+    margin:auto;
+}
+.poster img{
+    height: 250px;
+    width: 250px;
+}
+.songnames span{
+    margin:10px;
+    
+}
+.songnames img{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+}
